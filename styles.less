@@ -1,0 +1,72 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+@backgroundColor: rgb(33, 35, 39);
+
+.editor {
+  background-color: @backgroundColor;
+}
+
+atom-text-editor::shadow {
+  .gutter-container {
+    background-color: @backgroundColor;
+    .line-number {
+      color: white;
+    }
+    .line-number.cursor-line {
+      font-weight: bold;
+      color: yellow;
+    }
+  }
+  .comment {
+    color: #A0A3A9;
+    .punctuation.definition {
+      color: #A0A3A9;
+    }
+  }
+
+  .highlight.selection {
+    .region {
+      background-color: rgba(39, 203, 71, 0.3);
+    }
+    .highlight-selected {
+      background-color: rgba(39, 203, 71, 0.3);
+    }
+  }
+}
+
+atom-text-editor::shadow .bracket-matcher .region {
+  background-color: rgba(15, 149, 170, 0.5);
+  position: absolute;
+}
+
+atom-text-editor::shadow {
+  .multi-wrap-guide:nth-child(1) .multi-wrap-guide-line {
+    background-color: fadeout(green, 60%);
+    width: 1px;
+  }
+  .multi-wrap-guide:nth-child(2) .multi-wrap-guide-line {
+    background-color: fadeout(yellow, 60%);
+    width: 1px;
+  }
+  .multi-wrap-guide:nth-child(3) .multi-wrap-guide-line {
+    background-color: fadeout(red, 60%);
+    width: 1px;
+  }
+}
+
+.indent-guide-improved {
+  background-color: rgb(52, 52, 52, 0.1);
+  &.indent-guide-stack {
+    background-color: rgba(210, 66, 46, 0.5);
+    &.indent-guide-active {
+      background-color: rgba(245, 187, 18, 0.5);
+    }
+  }
+}

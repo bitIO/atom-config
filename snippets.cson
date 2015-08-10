@@ -1,0 +1,31 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+
+# COMMON
+'.source.js':
+  'use strict':
+    'prefix': 'st;'
+    'body': '"use strict";'
+
+  'block sub-header':
+    'prefix': '//-'
+    'body'  : '// $1\n//  -----------------------------------------------------------------------------'
+
+  'block header':
+    'prefix': '///'
+    'body'  : '// -----------------------------------------------------------------------------\n// $1\n// -----------------------------------------------------------------------------'
+
+'.source.coffee':
+  'block sub-header':
+    'prefix': '#-'
+    'body'  : '# $1\n# -----------------------------------------------------------------------------'
+
+  'block header':
+    'prefix': '##'
+    'body'  : '# -----------------------------------------------------------------------------\n# $1\n# -----------------------------------------------------------------------------'

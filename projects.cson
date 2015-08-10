@@ -1,0 +1,16 @@
+'bivee@gitlab':
+  'title': 'bivee@gitlab'
+  'paths': [
+    '/Users/franciscocallemoreno/Development/atos/gitlab/bivee'
+  ]
+'ic3po':
+  'title': 'ic3po'
+  'paths': [
+    '/Users/franciscocallemoreno/Development/atos/gitlab/ic3po'
+  ]
+'ideal':
+  'title': 'ideal'
+  'paths': [
+    '/Users/franciscocallemoreno/Development/atos/ic3po/apps/ideal'
+    '/Users/franciscocallemoreno/Development/atos/ic3po/packages'
+  ]
