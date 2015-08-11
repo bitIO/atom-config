@@ -26,6 +26,7 @@
       "bookmarks"
       "autocomplete"
       "wrap-guide"
+      "linter-htmlhint"
     ]
     themes: [
       "nucleus-dark-ui"
@@ -80,7 +81,6 @@
     ]
   "atom-alignment": {}
   wakatime:
-    apikey: ""
     ignore: [
       "^/var/"
       "^/tmp/"
@@ -89,6 +89,7 @@
       "PULLREQ_EDITMSG$"
       "MERGE_MSG$"
     ]
+    apikey: "022693c4-e216-4902-9010-304e21f23282"
   "multi-wrap-guide":
     locked: true
     rows: [
@@ -111,3 +112,4 @@
           blue: 0
           alpha: 1
       pulseDuration: 1
+  "tree-view-git-status": {}
