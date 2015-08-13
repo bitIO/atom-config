@@ -12,7 +12,3 @@
 #   editor = editorView.getEditor()
 #   if path.extname(editor.getPath()) is '.md'
 #     editor.setSoftWrap(true)
-
-fileTypes =
-  '.js': 'source.js'
-  '.html':'text.html.mustache'
