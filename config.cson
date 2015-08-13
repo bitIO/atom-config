@@ -10,7 +10,6 @@
   editor:
     fontFamily: "Inconsolata"
     lineHeight: 1.2
-    softWrap: true
     invisibles: {}
   core:
     ignoredNames: [
@@ -131,3 +130,4 @@
     html: "text.html.spacebars"
   "svg-preview": {}
   "git-plus": {}
+  pigments: {}
