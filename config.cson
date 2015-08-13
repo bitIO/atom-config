@@ -87,7 +87,8 @@
   preview:
     _analyticsUserId: "8a7c26e9-aebe-4f95-9e5b-f69f5edfef28"
   "linter-coffeelint": {}
-  "highlight-line": {}
+  "highlight-line":
+    hideHighlightOnSelect: true
   "todo-show":
     ignoreThesePaths: [
       "*/.meteor"
@@ -129,3 +130,4 @@
   "file-types":
     html: "text.html.spacebars"
   "svg-preview": {}
+  "git-plus": {}
