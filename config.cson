@@ -11,6 +11,7 @@
     fontFamily: "Inconsolata"
     lineHeight: 1.2
     invisibles: {}
+    fontSize: 15
   core:
     ignoredNames: [
       ".git .svn. .DS_Store Thumbs.db .meteor"
@@ -58,8 +59,8 @@
     enableVcsColoring: true
     usePreviewTabs: true
   "file-icon-supplement":
-    tabIcons: false
     fuzzyFinderIcons: true
+    tabIcons: false
     findAndReplaceIcons: false
   "linter-jshint": {}
   emmet: {}
@@ -131,3 +132,6 @@
   "svg-preview": {}
   "git-plus": {}
   pigments: {}
+  minimap: {}
+  "markdown-preview": {}
+  "status-bar": {}
