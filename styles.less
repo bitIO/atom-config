@@ -17,6 +17,28 @@ atom-workspace .tree-view {
 .editor {
   background-color: @backgroundColor;
 }
+.tab-bar {
+  .tab.modified {
+    border-bottom: 1px solid #fc0000;
+    &:hover {
+      color: #fff;
+      .close-icon:before {
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 900;
+      }
+    }
+
+    &:not(:hover) {
+      .close-icon {
+        color: #fff;
+        &:not(:hover) {
+          background-color: #de935f;
+        }
+      }
+    }
+  }
+}
 
 // spell check configuration (atom package)
 // -----------------------------------------------------------------------------
