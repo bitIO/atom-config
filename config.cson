@@ -1,109 +1,16 @@
 "*":
-  "exception-reporting":
-    userId: "dc15c6a1-fc4c-eea8-6e80-31af100e6490"
-  "release-notes":
-    viewedVersion: "0.95.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "c451eab2429c9b13b17f61b1859b2ed007413d27"
-  editor:
-    fontFamily: "Inconsolata"
-    lineHeight: 1.2
-    invisibles: {}
-    fontSize: 15
-  core:
-    ignoredNames: [
-      ".git .svn. .DS_Store Thumbs.db .meteor"
-    ]
-    disabledPackages: [
-      "autosave"
-      "language-go"
-      "language-objective-c"
-      "open-on-github"
-      "styleguide"
-      "atom-lint"
-      "bookmarks"
-      "autocomplete"
-      "wrap-guide"
-      "linter-htmlhint"
-    ]
-    themes: [
-      "nucleus-dark-ui"
-      "adventurous-syntax"
-    ]
-    projectHome: "/Users/bitjammer/Development"
-    audioBeep: false
-    excludeVcsIgnoredPaths: false
-  "autocomplete-plus":
-    confirmCompletion: "enter"
-  "git-diff":
-    showIconsInEditorGutter: true
+  "atom-alignment": {}
+  "atom-beautify":
+    _analyticsUserId: "863f45a3-e550-494f-9191-c7b408071e0e"
   "atom-lint":
     ignoredNames: [
       ".meteor/**"
       "tmp/**"
     ]
-  linter:
-    statusIconScope: "File"
-  "project-manager":
-    closeCurrent: true
-  "fuzzy-finder":
-    ignoredNames: [
-      ".meteor"
-    ]
-  "atom-beautify":
-    _analyticsUserId: "863f45a3-e550-494f-9191-c7b408071e0e"
-  tabs:
-    showIcons: true
-    enableVcsColoring: true
-    usePreviewTabs: true
-  "file-icon-supplement":
-    fuzzyFinderIcons: true
-    tabIcons: false
-    findAndReplaceIcons: false
-  "linter-jshint": {}
-  emmet: {}
-  "spell-check":
-    grammars: [
-      "source.asciidoc"
-      "source.gfm"
-      "text.git-commit"
-      "text.plain"
-      "text.plain.null-grammar"
-      "text.html.basic"
-      "source.json"
-      "source.coffee"
-      "source.js"
-    ]
-  dash:
-    grammars:
-      JavaScript: [
-        "nodejs"
-        "grunt"
-      ]
-  "highlight-selected":
-    onlyHighlightWholeWords: true
-  preview:
-    _analyticsUserId: "8a7c26e9-aebe-4f95-9e5b-f69f5edfef28"
-  "linter-coffeelint": {}
-  "highlight-line":
-    hideHighlightOnSelect: true
-  "todo-show":
-    ignoreThesePaths: [
-      "*/.meteor"
-    ]
-  "atom-alignment": {}
-  wakatime:
-    ignore: [
-      "^/var/"
-      "^/tmp/"
-      "^/private/"
-      "COMMIT_EDITMSG$"
-      "PULLREQ_EDITMSG$"
-      "MERGE_MSG$"
-    ]
-    apikey: "022693c4-e216-4902-9010-304e21f23282"
+  "atom-ternjs":
+    displayAboveSnippets: true
+  "autocomplete-plus":
+    confirmCompletion: "enter"
   "block-cursor":
     global:
       blinkOff: {}
@@ -119,20 +26,122 @@
           blue: 0
           alpha: 1
       pulseDuration: 1
-  "tree-view-git-status": {}
+  coffeedocs: {}
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "autosave"
+      "language-go"
+      "language-objective-c"
+      "open-on-github"
+      "styleguide"
+      "atom-lint"
+      "bookmarks"
+      "autocomplete"
+      "wrap-guide"
+      "linter-htmlhint"
+      "autocomplete-paths"
+      "spell-check"
+    ]
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git .svn. .DS_Store Thumbs.db .meteor"
+    ]
+    projectHome: "/Users/bitjammer/Development"
+    themes: [
+      "nucleus-dark-ui"
+      "adventurous-syntax"
+    ]
+  dash:
+    grammars:
+      JavaScript: [
+        "nodejs"
+        "grunt"
+      ]
+  editor:
+    fontFamily: "Inconsolata"
+    fontSize: 15
+    invisibles: {}
+    lineHeight: 1.2
+  emmet: {}
+  "exception-reporting":
+    userId: "dc15c6a1-fc4c-eea8-6e80-31af100e6490"
+  "file-icon-supplement":
+    findAndReplaceIcons: false
+    fuzzyFinderIcons: true
+    tabIcons: false
+  "file-types":
+    html: "text.html.spacebars"
+  "fuzzy-finder":
+    ignoredNames: [
+      ".meteor"
+    ]
+  "git-diff":
+    showIconsInEditorGutter: true
+  "git-plus": {}
+  "highlight-line":
+    hideHighlightOnSelect: true
+  "highlight-selected":
+    onlyHighlightWholeWords: true
+  linter:
+    statusIconScope: "File"
+  "linter-coffeelint": {}
+  "linter-eslint":
+    globalNodePath: "/Users/franciscocallemoreno/.nvm/versions/v4.2.4/"
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  "markdown-preview": {}
+  metrics:
+    userId: "c451eab2429c9b13b17f61b1859b2ed007413d27"
+  minimap: {}
   "multi-wrap-guide":
-    locked: true
     columns: [
       80
       100
       120
     ]
-  "file-types":
-    html: "text.html.spacebars"
-  "svg-preview": {}
-  "git-plus": {}
+    locked: true
   pigments: {}
-  minimap: {}
-  "markdown-preview": {}
+  preview:
+    _analyticsUserId: "8a7c26e9-aebe-4f95-9e5b-f69f5edfef28"
+  "project-manager":
+    closeCurrent: true
+  react: {}
+  "release-notes":
+    viewedVersion: "0.95.0"
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.html.basic"
+      "source.json"
+      "source.coffee"
+      "source.js"
+    ]
   "status-bar": {}
-  coffeedocs: {}
+  "svg-preview": {}
+  tabs:
+    enableVcsColoring: true
+    showIcons: true
+    usePreviewTabs: true
+  "todo-show":
+    ignoreThesePaths: [
+      "**/.meteor/*"
+    ]
+    openListInDirection: "down"
+  "tree-view-git-status": {}
+  wakatime:
+    apikey: "022693c4-e216-4902-9010-304e21f23282"
+    ignore: [
+      "^/var/"
+      "^/tmp/"
+      "^/private/"
+      "COMMIT_EDITMSG$"
+      "PULLREQ_EDITMSG$"
+      "MERGE_MSG$"
+    ]
+  welcome:
+    showOnStartup: false

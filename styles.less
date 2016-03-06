@@ -12,7 +12,7 @@
 // editor and tree-view configuration
 // -----------------------------------------------------------------------------
 atom-workspace .tree-view {
-  background-color: rgb(13, 15, 18);
+  background-color: @backgroundColor;
 }
 .editor {
   background-color: @backgroundColor;
@@ -49,8 +49,8 @@ atom-text-editor::shadow .spell-check-misspelling .region {
 // gutter configuration (not a package)
 // -----------------------------------------------------------------------------
 atom-text-editor::shadow {
-  .gutter-container {
-    background-color: @backgroundColor;
+  .gutter {
+    background-color: lighten(@backgroundColor, 4%);
     .line-number {
       color: white;
     }
@@ -58,6 +58,7 @@ atom-text-editor::shadow {
       font-weight: bold;
       color: yellow;
     }
+
   }
   .comment {
     color: #A0A3A9;
@@ -66,12 +67,13 @@ atom-text-editor::shadow {
     }
   }
 
+  @highlight-color: rgba(228, 159, 66, 0.3);
   .highlight.selection {
     .region {
-      background-color: rgba(39, 203, 71, 0.3);
+      background-color: @highlight-color;
     }
     .highlight-selected {
-      background-color: rgba(39, 203, 71, 0.3);
+      background-color: @highlight-color;
     }
   }
 }
