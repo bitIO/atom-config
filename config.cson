@@ -1,7 +1,8 @@
 "*":
   "atom-alignment": {}
   "atom-beautify":
-    _analyticsUserId: "863f45a3-e550-494f-9191-c7b408071e0e"
+    general:
+      _analyticsUserId: "863f45a3-e550-494f-9191-c7b408071e0e"
   "atom-lint":
     ignoredNames: [
       ".meteor/**"
@@ -29,6 +30,7 @@
   coffeedocs: {}
   core:
     audioBeep: false
+    automaticallyUpdate: false
     disabledPackages: [
       "autosave"
       "language-go"
@@ -40,10 +42,14 @@
       "autocomplete"
       "wrap-guide"
       "linter-htmlhint"
-      "autocomplete-paths"
       "spell-check"
+      "icon-fonts"
+      "meteor-api"
+      "react-snippets"
+      "editor-stats"
+      "linter-jshint"
+      "react"
     ]
-    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git .svn. .DS_Store Thumbs.db .meteor"
     ]
@@ -60,7 +66,6 @@
       ]
   editor:
     fontFamily: "Inconsolata"
-    fontSize: 15
     invisibles: {}
     lineHeight: 1.2
   emmet: {}
@@ -68,7 +73,6 @@
     userId: "dc15c6a1-fc4c-eea8-6e80-31af100e6490"
   "file-icon-supplement":
     findAndReplaceIcons: false
-    fuzzyFinderIcons: true
     tabIcons: false
   "file-types":
     html: "text.html.spacebars"
@@ -83,11 +87,13 @@
     hideHighlightOnSelect: true
   "highlight-selected":
     onlyHighlightWholeWords: true
+  "language-babel":
+    autoIndentJSX: true
   linter:
+    showErrorPanel: false
     statusIconScope: "File"
   "linter-coffeelint": {}
-  "linter-eslint":
-    globalNodePath: "/Users/franciscocallemoreno/.nvm/versions/v4.2.4/"
+  "linter-eslint": {}
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
   "markdown-preview": {}
@@ -132,9 +138,10 @@
       "**/.meteor/*"
     ]
     openListInDirection: "down"
+  "tree-view": {}
   "tree-view-git-status": {}
   wakatime:
-    apikey: "022693c4-e216-4902-9010-304e21f23282"
+    apikey: "Saved in your ~/.wakatime.cfg file"
     ignore: [
       "^/var/"
       "^/tmp/"
@@ -143,5 +150,7 @@
       "PULLREQ_EDITMSG$"
       "MERGE_MSG$"
     ]
+  "wakatime-hidden":
+    lastInit: 1466970005
   welcome:
     showOnStartup: false
