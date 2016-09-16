@@ -11,7 +11,7 @@
 '.source.js':
   'use strict':
     'prefix': 'st;'
-    'body': '"use strict";'
+    'body': '\'use strict\';'
 
   'block sub-header':
     'prefix': '--'
