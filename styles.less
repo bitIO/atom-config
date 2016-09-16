@@ -18,6 +18,18 @@ atom-workspace .tree-view {
   background-color: @backgroundColor;
 }
 .tab-bar {
+  .tab.active {
+    // background-color: #2b98b5 !important;
+    border-top: 1px solid #2b98b5;
+
+  }
+  .tab.active {
+    &:before {
+      position: absolute;
+      right: 10px;
+      content: '🙈';
+    }
+  }
   .tab.modified {
     border-bottom: 1px solid #fc0000;
     &:hover {
