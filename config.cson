@@ -45,15 +45,14 @@
       "spell-check"
       "icon-fonts"
       "meteor-api"
-      "react-snippets"
       "editor-stats"
       "linter-jshint"
-      "react"
+      "react-snippets"
     ]
     ignoredNames: [
       ".git .svn. .DS_Store Thumbs.db .meteor"
     ]
-    projectHome: "/Users/bitjammer/Development"
+    projectHome: "/Users/francisco.calle/Dev"
     themes: [
       "nucleus-dark-ui"
       "adventurous-syntax"
@@ -90,10 +89,10 @@
   "language-babel":
     autoIndentJSX: true
   linter:
-    showErrorPanel: false
     statusIconScope: "File"
   "linter-coffeelint": {}
-  "linter-eslint": {}
+  "linter-eslint":
+    disableEslintIgnore: true
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
   "markdown-preview": {}
@@ -142,15 +141,7 @@
   "tree-view-git-status": {}
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
-    ignore: [
-      "^/var/"
-      "^/tmp/"
-      "^/private/"
-      "COMMIT_EDITMSG$"
-      "PULLREQ_EDITMSG$"
-      "MERGE_MSG$"
-    ]
   "wakatime-hidden":
-    lastInit: 1466970005
+    lastInit: 1476093069
   welcome:
     showOnStartup: false

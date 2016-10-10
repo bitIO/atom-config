@@ -1,21 +1,6 @@
-'ic3po-all':
-  'icon' : 'icon-flame'
-  'title': 'ic3po'
-  'paths': [
-    '/Users/franciscocallemoreno/Development/atos/ic3po'
-  ]
-'ic3po-ideal':
-  'icon' : 'icon-light-bulb'
-  'title': 'ideal'
-  'paths': [
-    '/Users/franciscocallemoreno/Development/atos/ic3po/apps/ideal'
-    '/Users/franciscocallemoreno/Development/atos/ic3po/packages'
-  ]
-'ic3po-rleim':
-  'icon' : 'icon-mortar-board'
-  'title': 'rle-im'
-  'paths': [
-    '/Users/franciscocallemoreno/Development/atos/ic3po/sites/rleim/app/'
-    '/Users/franciscocallemoreno/Development/atos/ic3po/packages/'
-    '/Users/franciscocallemoreno/Development/Meteor/Packages/'
+"beeva-idealab":
+  title: "Beeva - Idealab"
+  paths: [
+    "/Users/francisco.calle/Dev/beeva/idealab-app"
+    "/Users/francisco.calle/Dev/beeva/idealab-app/packages/idealab"
   ]
