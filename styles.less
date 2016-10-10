@@ -20,6 +20,7 @@ atom-workspace .tree-view {
 .tab-bar {
   .tab.active {
     // background-color: #2b98b5 !important;
+    background-color: @backgroundColor !important;
     border-top: 1px solid #2b98b5;
 
   }
@@ -62,7 +63,8 @@ atom-text-editor::shadow .spell-check-misspelling .region {
 // -----------------------------------------------------------------------------
 atom-text-editor::shadow {
   .gutter {
-    background-color: lighten(@backgroundColor, 4%);
+    background-color: lighten(@backgroundColor, 3%);
+    border-right: none;
     .line-number {
       color: white;
     }
@@ -150,5 +152,5 @@ atom-text-editor::shadow {
 }
 
 atom-text-editor::shadow .gutter-container .line-number {
-  width: 95% !important;
+  // width: 95% !important;
 }
