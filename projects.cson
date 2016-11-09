@@ -1,6 +1,20 @@
-"beeva-idealab":
-  title: "Beeva - Idealab"
-  paths: [
-    "/Users/francisco.calle/Dev/beeva/idealab-app"
-    "/Users/francisco.calle/Dev/beeva/idealab-app/packages/idealab"
-  ]
+[
+  {
+    title: "Beeva - Idealab"
+    paths: [
+      "/Users/francisco.calle/Dev/beeva/idealab-app"
+      "/Users/francisco.calle/Dev/beeva/idealab-app/packages/idealab"
+    ]
+    icon: "icon-light-bulb"
+  }
+  {
+    title: "Semantic UI"
+    group: "Clever"
+    paths: [
+      "/Users/francisco.calle/Dev/beeva/clever/semantic-ui"
+      "/Users/francisco.calle/Dev/beeva/clever/semantic-ui/src/themes/clever"
+      "/Users/francisco.calle/Dev/beeva/clever/semantic-ui/examples"
+    ]
+    icon: "icon-paintcan"
+  }
+]

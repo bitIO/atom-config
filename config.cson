@@ -16,16 +16,8 @@
     global:
       blinkOff: {}
       blinkOn:
-        backgroundColor:
-          red: 255
-          green: 251
-          blue: 128
-          alpha: 0.3
-        borderColor:
-          red: 255
-          green: 251
-          blue: 0
-          alpha: 1
+        backgroundColor: "rgba(255, 251, 128, 0.3)"
+        borderColor: "#fffb00"
       pulseDuration: 1
   coffeedocs: {}
   core:
@@ -53,6 +45,7 @@
       ".git .svn. .DS_Store Thumbs.db .meteor"
     ]
     projectHome: "/Users/francisco.calle/Dev"
+    telemetryConsent: "limited"
     themes: [
       "nucleus-dark-ui"
       "adventurous-syntax"
@@ -142,6 +135,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1476093069
+    lastInit: 1478619499
   welcome:
     showOnStartup: false
