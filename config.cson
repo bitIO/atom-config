@@ -58,6 +58,7 @@
       ]
   editor:
     fontFamily: "Inconsolata"
+    fontSize: 12
     invisibles: {}
     lineHeight: 1.2
   emmet: {}
@@ -135,6 +136,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1478619499
+    lastInit: 1479229887
   welcome:
     showOnStartup: false

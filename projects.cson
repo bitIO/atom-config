@@ -17,4 +17,14 @@
     ]
     icon: "icon-paintcan"
   }
+  {
+    title: "Webapp"
+    group: "Clever"
+    paths: [
+      "/Users/francisco.calle/Dev/beeva/clever/webapp"
+      "/Users/francisco.calle/Dev/beeva/clever/webapp/client/modules"
+      "/Users/francisco.calle/Dev/beeva/clever/webapp/server"
+    ]
+    icon: "icon-rocket"
+  }
 ]
