@@ -40,7 +40,6 @@
       "editor-stats"
       "linter-jshint"
       "react-snippets"
-      "file-icon-supplement"
     ]
     ignoredNames: [
       ".git .svn. .DS_Store Thumbs.db .meteor"
@@ -59,7 +58,6 @@
       ]
   editor:
     fontFamily: "Inconsolata"
-    fontSize: 12
     invisibles: {}
     lineHeight: 1.2
   emmet: {}
@@ -68,6 +66,8 @@
   "file-icon-supplement":
     findAndReplaceIcons: false
     tabIcons: false
+  "file-icons":
+    forceShow: true
   "file-types":
     html: "text.html.spacebars"
   "fuzzy-finder":
@@ -137,6 +137,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1479229887
+    lastInit: 1480420066
   welcome:
     showOnStartup: false

@@ -14,6 +14,7 @@
       "/Users/francisco.calle/Dev/beeva/clever/semantic-ui"
       "/Users/francisco.calle/Dev/beeva/clever/semantic-ui/src/themes/clever"
       "/Users/francisco.calle/Dev/beeva/clever/semantic-ui/examples"
+      "/Users/francisco.calle/Dev/beeva/clever/semantic-ui/src/definitions"
     ]
     icon: "icon-paintcan"
   }
@@ -24,6 +25,7 @@
       "/Users/francisco.calle/Dev/beeva/clever/webapp"
       "/Users/francisco.calle/Dev/beeva/clever/webapp/client/modules"
       "/Users/francisco.calle/Dev/beeva/clever/webapp/server"
+      "/Users/francisco.calle/Dev/beeva/clever/webapp/client/lib/semantic-ui"
     ]
     icon: "icon-rocket"
   }

@@ -13,6 +13,12 @@
 // -----------------------------------------------------------------------------
 atom-workspace .tree-view {
   background-color: @backgroundColor;
+  .project-root.project-root:not(:first-child) {
+    padding-top: 1px;
+  }
+  .project-root.project-root {
+    padding-bottom: 1px;
+  }
 }
 .editor {
   background-color: @backgroundColor;
