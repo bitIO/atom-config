@@ -2,10 +2,8 @@
   {
     title: "Beeva - Idealab"
     paths: [
-      "~/Dev/beeva/idealab"
-      "~/Dev/beeva/idealab/app"
-      "~/Dev/beeva/idealab/app/packages/idealab"
-      "~/Dev/beeva/idealab/db"
+      "~/Dev/beeva/idealab-app"
+      "~/Dev/beeva/idealab-app/packages/idealab"
     ]
     icon: "icon-light-bulb"
   }
@@ -24,11 +22,23 @@
     title: "Webapp"
     group: "Clever"
     paths: [
-      "~/Dev/beeva/clever/webapp"
-      "~/Dev/beeva/clever/webapp/client/modules"
-      "~/Dev/beeva/clever/webapp/server"
-      "~/Dev/beeva/clever/webapp/client/lib/semantic-ui"
+      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp"
+      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/client/modules"
+      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/server"
+      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/client/lib/semantic-ui"
+      "/Users/franciscocallemoreno/Development/beeva/clever/webapp/public"
+      "/Users/franciscocallemoreno/Development/beeva/clever/webapp/private"
     ]
     icon: "icon-rocket"
+  }
+  {
+    title: "Beeva - Idealab"
+    paths: [
+      "~/Dev/beeva/idealab"
+      "~/Dev/beeva/idealab/app"
+      "~/Dev/beeva/idealab/app/packages/idealab"
+      "~/Dev/beeva/idealab/db"
+    ]
+    icon: "icon-light-bulb"
   }
 ]
