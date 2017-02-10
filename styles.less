@@ -61,13 +61,13 @@ atom-workspace .tree-view {
 
 // spell check configuration (atom package)
 // -----------------------------------------------------------------------------
-atom-text-editor::shadow .spell-check-misspelling .region {
+atom-text-editor .spell-check-misspelling .region {
   border-bottom: 1rem dashed rgba(255, 27, 1, 0.5);
 }
 
 // gutter configuration (not a package)
 // -----------------------------------------------------------------------------
-atom-text-editor::shadow {
+atom-text-editor {
   .gutter {
     background-color: lighten(@backgroundColor, 3%);
     border-right: none;
@@ -100,14 +100,14 @@ atom-text-editor::shadow {
 
 // bracket-matcher configuration
 // -----------------------------------------------------------------------------
-atom-text-editor::shadow .bracket-matcher .region {
+atom-text-editor .bracket-matcher .region {
   background-color: rgba(15, 149, 170, 0.5);
   position: absolute;
 }
 
 // multi-wrap-guide configuration
 // -----------------------------------------------------------------------------
-atom-text-editor::shadow {
+atom-text-editor {
   .multi-wrap-guide:nth-child(1) .multi-wrap-guide-line {
     background-color: fadeout(green, 60%);
     width: 1px;
@@ -136,7 +136,7 @@ atom-text-editor::shadow {
 
 // highlight-line configuration
 // -----------------------------------------------------------------------------
-atom-text-editor::shadow {
+atom-text-editor {
   // The cursor line important to use rgba for opacity, also requires !important
   // to override any theme.
   .line.highlight-line {
@@ -157,7 +157,7 @@ atom-text-editor::shadow {
   }
 }
 
-atom-text-editor::shadow .gutter-container .line-number {
+atom-text-editor .gutter-container .line-number {
   // width: 95% !important;
 }
 
