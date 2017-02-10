@@ -1,33 +1,14 @@
 [
   {
-    title: "Beeva - Idealab"
-    paths: [
-      "~/Dev/beeva/idealab-app"
-      "~/Dev/beeva/idealab-app/packages/idealab"
-    ]
-    icon: "icon-light-bulb"
-  }
-  {
-    title: "Semantic UI"
+    title: "webapp/meteor"
     group: "Clever"
     paths: [
-      "~/Dev/beeva/clever/semantic-ui"
-      "~/Dev/beeva/clever/semantic-ui/src/themes/clever"
-      "~/Dev/beeva/clever/semantic-ui/examples"
-      "~/Dev/beeva/clever/semantic-ui/src/definitions"
-    ]
-    icon: "icon-paintcan"
-  }
-  {
-    title: "Webapp"
-    group: "Clever"
-    paths: [
-      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp"
-      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/client/modules"
-      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/server"
-      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/client/lib/semantic-ui"
-      "/Users/franciscocallemoreno/Development/beeva/clever/webapp/public"
-      "/Users/franciscocallemoreno/Development/beeva/clever/webapp/private"
+      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/meteor"
+      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/meteor/client/modules"
+      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/meteor/server"
+      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/meteor/client/lib/semantic-ui"
+      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/meteor/public"
+      "/Users/franciscocallemoreno/Dev/beeva/clever/webapp/meteor/private"
     ]
     icon: "icon-rocket"
   }
