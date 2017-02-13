@@ -38,8 +38,8 @@
       "icon-fonts"
       "meteor-api"
       "editor-stats"
-      "linter-jshint"
       "react-snippets"
+      "block-cursor"
     ]
     ignoredNames: [
       ".git .svn. .DS_Store Thumbs.db .meteor"
@@ -76,7 +76,9 @@
     ]
   "git-diff":
     showIconsInEditorGutter: true
-  "git-plus": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "e3c430ff-bf80-4c41-8d18-c91d4dd46c21"
   "highlight-line":
     hideHighlightOnSelect: true
   "highlight-selected":
@@ -93,7 +95,8 @@
   "markdown-preview": {}
   metrics:
     userId: "c451eab2429c9b13b17f61b1859b2ed007413d27"
-  minimap: {}
+  minimap:
+    absoluteMode: true
   "multi-wrap-guide":
     columns: [
       80
@@ -137,6 +140,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1480420066
+    lastInit: 1486720816
   welcome:
     showOnStartup: false
