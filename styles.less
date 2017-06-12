@@ -24,35 +24,37 @@ atom-workspace .tree-view {
   background-color: @backgroundColor;
 }
 .tab-bar {
-  .tab.active {
-    // background-color: #2b98b5 !important;
-    background-color: @backgroundColor !important;
-    border-top: 1px solid #2b98b5;
+  .texteditor {
+    &.tab.active {
+      // background-color: #2b98b5 !important;
+      background-color: @backgroundColor !important;
+      border-top: 1px solid #2b98b5;
 
-  }
-  .tab.active {
-    &:before {
-      position: absolute;
-      right: 10px;
-      content: '🙈';
     }
-  }
-  .tab.modified {
-    border-bottom: 1px solid #fc0000;
-    &:hover {
-      color: #fff;
-      .close-icon:before {
-        color: #fff;
-        font-size: 1.1rem;
-        font-weight: 900;
+    &.tab.active {
+      &:before {
+        position: absolute;
+        right: 10px;
+        content: '🙈';
       }
     }
-
-    &:not(:hover) {
-      .close-icon {
+    &.tab.modified {
+      border-bottom: 1px solid #fc0000;
+      &:hover {
         color: #fff;
-        &:not(:hover) {
-          background-color: #de935f;
+        .close-icon:before {
+          color: #fff;
+          font-size: 1.1rem;
+          font-weight: 900;
+        }
+      }
+
+      &:not(:hover) {
+        .close-icon {
+          color: #fff;
+          &:not(:hover) {
+            background-color: #de935f;
+          }
         }
       }
     }
@@ -159,10 +161,20 @@ atom-text-editor {
 
 atom-text-editor .gutter-container .line-number {
   // width: 95% !important;
+  /* culo  */
 }
 
 atom-notifications {
   .content {
     font-size: 0.65em;
   }
+}
+
+
+// comments configuration
+// -----------------------------------------------------------------------------
+.syntax--comment.syntax--line, .syntax--comment.syntax--block,
+.syntax--comment.syntax--line .syntax--punctuation,
+.syntax--comment.syntax--block .syntax--punctuation, {
+  color: #397c33;
 }
